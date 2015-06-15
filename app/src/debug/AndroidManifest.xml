@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--     DEBUG MANIFEST       -->
+<manifest
+    package="org.eatech.base"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+
+        <meta-data
+            android:name="GOOGLE_ANALYTICS_ID"
+            android:value="UA-xxxxxx-7" />
+
+        <meta-data
+            android:name="SHOW_DB_VIEWER"
+            android:value="1"/>
+
+    </application>
+
+</manifest>

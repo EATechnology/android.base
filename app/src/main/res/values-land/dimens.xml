@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="card_view_image_height">200dp</dimen>
+    <dimen name="detail_activity_image_height">150dp</dimen>
+
+</resources>

@@ -1,6 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Work.ua</string>
+
+    <string name="app_name">Base</string>
+    <string name="app_name_dev">Base DEV</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="action_about">О приложении</string>
+    <string name="action_search">Поиск</string>
+    <string name="drawer_open">Открыть</string>
+    <string name="drawer_close">Закрыть</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+
+    <string name="screen_splash">Экран - Загрузка</string>
+    <string name="screen_common">Экран - Общий</string>
+    <string name="screen_post_list">Экран - список новостей</string>
+    <string name="screen_post_detail">Экран - детальная новость</string>
+    <string name="screen_post_detail_gallery">Экран - галерея</string>
+    <string name="screen_db_viewer">Экран - DB Viewer</string>
+    <string name="screen_settings">Экран - Настройки</string>
+    <string name="screen_favorites">Экран - Закладки</string>
+
+    <string name="original_name">@string/app_name</string>
+    <string name="original_link"><a href="http://google.com/">http://google.com</a></string>
+
+    <string name="company_email"><a href="mailto:eatechapps@gmail.com">eatechapps@gmail.com</a></string>
+    <string name="company_address"><a href="http://eatechnologies.org">http://eatechnologies.org</a></string>
+
+    <string name="developed_by">Автор приложения</string>
+    <string name="view_photos">Смотреть фото</string>
+    <string name="other_apps">Другие приложения</string>
+    <string name="other_apps_link">http://bit.ly/1Afp8bB</string>
+    <string name="view_in_browser">Открыть в браузере</string>
+    <string name="to_favorite">В избранное</string>
+    <string name="share">Поделиться</string>
+    <string name="category">Категория</string>
+    <string name="writetous">Мы на связи</string>
+    <string name="action_exchange">Курс валют</string>
+    <string name="action_favorites">Закладки</string>
+    <string name="empty_result">Записи не найдены</string>
+    <string name="connection_error">Проверьте подключение к сети</string>
+
 </resources>

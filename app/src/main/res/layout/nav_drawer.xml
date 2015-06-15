@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/nav_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/primary">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/additional_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llSettings"
+            style="@style/MainTheme.Drawer.Item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="7dp"
+                android:alpha=".8"
+                android:src="@drawable/ic_settings" />
+
+            <com.rey.material.widget.Button
+                android:id="@+id/btnSettings"
+                style="@style/MainTheme.Button.Ripple"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|center"
+                android:paddingLeft="8dp"
+                android:text="@string/action_settings"
+                android:textAllCaps="true"
+                android:textSize="12sp"
+                app:rd_enable="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llOtherApps"
+            style="@style/MainTheme.Drawer.Item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="7dp"
+                android:alpha=".8"
+                android:src="@drawable/ic_google_play_light" />
+
+            <com.rey.material.widget.Button
+                android:id="@+id/btnOtherApps"
+                style="@style/MainTheme.Button.Ripple"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|center"
+                android:paddingLeft="8dp"
+                android:text="@string/other_apps"
+                android:textAllCaps="true"
+                android:textSize="12sp"
+                app:rd_enable="true" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/additional_menu"
+        android:layout_below="@id/nav_header_container"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>
